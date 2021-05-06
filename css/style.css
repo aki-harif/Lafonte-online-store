@@ -471,6 +471,7 @@ border-radius: 1rem;
     justify-content: center;
     text-align: center;
     margin: 1rem;
+    padding-bottom: 5rem;
 }
 .products h2 {
     font-size: 3rem;
@@ -495,6 +496,7 @@ border-radius: 1rem;
     gap: 1rem;
     margin: auto;
     justify-content: center;
+
     
 }
 .products-item {
@@ -570,6 +572,9 @@ border-radius: 1rem;
 
 /* ---------------- Advertisement --------------- */
 
+.adver{ 
+padding-bottom: 3rem;
+}
 .adver-flex{
     display: flex;
     flex-wrap: wrap;
