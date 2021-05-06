@@ -1,0 +1,278 @@
+@media (max-width: 768px){
+    .container {
+        width: 95%;
+        height: 100%;
+        margin: auto;
+    }
+    .nav-list .logo{
+
+    display: flex;
+    justify-content: center;
+    }
+    .nav-items{
+        display: none;
+    }
+    .nav-list .search-box{
+        display: none;
+    }
+    .shopping-icon {
+        display: none;  
+    }
+    .nav-list .login-icon {
+        display: none;   
+    }
+    header .nav-icon-menu {
+        position: absolute;
+        position: fixed;
+        right: 2rem;
+        top: 1rem;
+        font-size: 3rem;
+        color: #fff;
+        cursor: pointer;
+        z-index: 20;
+        visibility: visible;
+    }
+    header .nav-icon-close{
+        position: absolute;
+        position: fixed;
+        right: 2rem;
+        top: .7rem;
+        font-size: 3.5rem;
+        color: #fff;
+        cursor: pointer;
+        z-index: 20;
+        visibility: hidden;
+    }
+    .mobile-navigation{
+        background-color: rgb(77, 241, 214, .7);
+        position: fixed;
+        top: 5rem;
+        left: 0;
+        width: 100%;
+        height: 415px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 20;
+        visibility: hidden;
+    }
+    .mobile-navigation.active{
+        left: 0;
+    }
+    .acount{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: flex-start;
+        padding: 0 10rem;
+        margin-top: -2rem;
+        margin-bottom: 8rem;
+        width: 100%
+        
+    }
+    .acount li {
+        list-style: none;
+    }
+    .acount li a{
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
+    }
+    .acount li a:hover{
+        color: var(--white-color);
+    }
+    .mobile-navigation .social-nav{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 2rem;
+      height: 100%;
+      justify-content: center;
+
+      display: flex;
+      flex-direction: column;
+    }
+    .mobile-navigation .social-nav a {
+        margin: .7rem .2rem;
+        color: #000;
+    }
+    .mobile-navigation .social-nav a:hover{
+        color: var(--white-color);
+    }
+    .navigation {
+        text-align: center;
+        line-height: 2.5rem;
+    }
+    .mobile-navigation .navigation ul li{
+     list-style: none;
+    }
+    .mobile-navigation .navigation ul li a {
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #000;
+    }
+    .mobile-navigation .navigation ul li a:hover{
+        color: var(--white-color);
+    }
+    .login-account,
+    .sign-up-account{
+        top: 40%;
+        left: 45%;
+        transform: translate(-40%, -45%);
+        width: 70%;
+        height: 45%;
+    }
+    .title-log {
+        letter-spacing: .7rem;
+        margin: 2rem auto 1rem;
+        font-size: 1.5rem;
+    }
+    .title-sign-up {
+        letter-spacing: .7rem;
+        margin: 2rem auto 0rem;
+        font-size: 1.5rem;
+    }
+    .inputs-log,
+    .inputs-sign-up{
+        margin: 0rem auto 1rem;
+    }
+    .buttons-card .log-btn{
+        padding: .3rem 5rem;
+        font-size: 1rem;
+      }
+      .buttons-card .sign-btn{
+        margin-top: -.7rem;
+      }
+      .footer-account{
+        padding-top: 2.2rem;  
+    }
+    .footer-account .Have-account-sign{
+        margin-top: -.7rem;
+    }
+    .footer-account .F-pass {
+        font-size: .8rem;
+    }
+    .footer-account h4{
+        margin: .3rem auto;
+    }
+    .footer-account span a{
+        font-size: .9rem;
+    }
+    .img-slider .slides img {
+        object-fit: cover;
+        min-width: 100%;
+        height: 450px;
+    }
+    
+    .products h2 {
+        font-size: 3rem;
+        width: 70%;
+    }
+    .products p {
+        width: 80%;  
+    }
+
+    .products-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        margin: auto;
+        justify-content: center;
+        
+    }
+    .products-item .img-pro img {
+        width: 12rem;
+        border-radius: 1rem; 
+        
+    }
+    .products-item .img-pro .action {
+        position: absolute;
+        top: 0;
+        left: 5px;
+        width: 12rem;
+        height: 9.1rem;
+
+    }
+    
+    .sells-item img{
+        width:  205px;
+        height: 165px; 
+    }
+    .advise-title h2 {
+        font-size: 2rem;
+       }
+       .advise-title p {
+    
+        padding: 1.1rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .footer-nav h2 {
+        padding-bottom: .5rem;
+        letter-spacing: .2rem;
+        
+    }
+    .footer-nav h2 {
+        font-size: 1rem;
+        padding-bottom: 0rem;
+        
+    }
+    .footer-nav ul li a {
+        font-size: .6rem;
+    }
+    .footer-nav .social i{
+        font-size: 1.5rem;
+        margin: .2rem;
+        
+    }
+    .footer-nav ul {
+        line-height: 1rem;
+    }
+    .footer-nav .social{ 
+        flex: 1;
+        text-align: center;
+    }
+    .footer-nav .Our-brands {
+        flex: 1;
+    }
+    .footer-nav .About {
+        flex: 1;
+        padding-left: 3rem;
+    }
+    .footer-nav .Tips-Guides {
+        flex: 1;
+    }
+    .footer-nav .shop {
+        flex: 1;
+    }
+
+
+/* shopping page */
+.shoping-page .product-shoping{
+    margin: 5rem 1rem 0 0; 
+ }
+
+/* advice page */
+.advice-main .container h2{
+    font-size: 1.8rem;
+    margin-bottom: .7rem;
+    }
+    .advice-main .container h1{
+        font-size: 1.5rem;
+        }
+    .advice-main .container p{
+        font-size: 1.2rem;
+        margin-bottom: .7rem;
+        line-height: 1.9rem;
+    }
+    .advice-main .container ul li{
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+
+
+}

@@ -1,0 +1,148 @@
+@media (max-width: 480px){
+    .title-sign-up {
+        letter-spacing: .4rem;
+        margin: 2rem auto 0rem;
+    }
+    .title-log{
+        letter-spacing: .4rem;
+        margin: 2rem auto 1rem;
+    }
+    .inputs-log{
+        margin: 2rem auto -.7rem;
+    }
+    .inputs-sign-up{
+        margin: 0rem auto .8rem;
+    }
+    .inputs-log,
+    .inputs-sign-up lable{
+        transform: translateY(-25px);
+        font-size: .8rem;
+    }
+    .inputs-log .content-password,
+    .content-name{
+        padding-left: .2rem;
+    }
+    .inputs-sign-up .place-email,
+    .place-name, .place-password{
+        padding-left: .2rem;
+   }
+    .buttons-card .log-btn{
+       padding: .3rem 3rem;
+       font-size: .9rem;
+   }
+   .login-card input:focus + .name-lbl .content-name,
+   .login-card input:valid + .name-lbl .content-name{
+       transform: translateY(-15px);
+       font-size: .7em;
+       letter-spacing: .1rem;
+   }
+   .login-card input:focus + .password-lbl .content-password,
+   .login-card input:valid + .password-lbl .content-password{
+       transform: translateY(-15px);
+       font-size: .7em;
+       letter-spacing: .1rem;
+   }
+   .inputs-sign-up input:focus + .name .place-name,
+   .inputs-sign-up input:valid + .name .place-name{
+       transform: translateY(-15px);
+       font-size: .7em;
+       letter-spacing: .1rem;
+   }
+   .inputs-sign-up input:focus + .email .place-email,
+   .inputs-sign-up input:valid + .email .place-email{
+       transform: translateY(-15px);
+       font-size: .7em;
+       letter-spacing: .1rem;
+   }
+   .inputs-sign-up input:focus + .password .place-password,
+   .inputs-sign-up input:valid + .password .place-password{
+       transform: translateY(-15px);
+       font-size: .7em;
+       letter-spacing: .1rem;
+   }
+   .footer-account{
+       padding-top: 2.2rem;  
+   }
+   .footer-account .Have-account-sign{
+       margin-top: -.7rem;
+   }
+   .footer-account .F-pass {
+       font-size: .7rem;
+   }
+   .footer-account h4{
+       margin: .3rem auto;
+       font-size: .9rem;
+   }
+   .footer-account span a{
+       font-size: .8rem;
+   }
+    .adver-item{
+        position: relative;
+        width: 350px;
+        height: 500px;
+        padding-bottom: 1rem;
+       }
+       .nav-list .logo {
+        flex: 1;
+        font-size: 2.5rem;
+        padding: .8rem 0;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(90deg, rgb(213, 236, 231), rgb(1, 182, 122));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+    header .nav-icon-menu{
+        font-size: 2rem; 
+        padding: .6rem 0; 
+    }
+    header .nav-icon-close{
+        font-size: 2.5rem;
+        padding: .6rem 0;
+    } 
+    .acount{
+        padding: 0 4rem; 
+    }
+    .sells .sell-head{
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+
+/* shopping page */
+.shoping-page .product-shoping{
+    width: 90%;
+    margin: 3rem auto;
+    
+ }
+ .footer-shop{
+    margin: 1rem  0rem;
+}
+.product-shoping .product-color {
+    width: 40%;
+}
+
+.product-shoping .product-color{
+    width: 77%;
+}
+
+/* advice page */
+.advice-main .container h2{
+font-size: 1.5rem;
+margin-bottom: .5rem;
+}
+.advice-main .container h1{
+    font-size: 1.1rem;
+    }
+.advice-main .container p{
+    font-size: 1rem;
+    margin-bottom: .4rem;
+    line-height: 1.7rem;
+}
+.advice-main .container ul li{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-left: 2rem;
+}
+
+}
