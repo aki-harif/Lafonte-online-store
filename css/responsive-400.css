@@ -106,7 +106,14 @@
     }
     .sells .sell-head{
         margin-bottom: 2rem;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+    }
+    .sells-item img{
+        width:  16.5rem;
+        height: auto; 
+    }
+    .sells-container {
+        width: 80%;
     }
 
 /* shopping page */
@@ -125,7 +132,11 @@
 .product-shoping .product-color{
     width: 77%;
 }
-
+ /* adver */
+ .adver-item .adver-title {
+    justify-content: end;
+    
+}
 /* advice page */
 .advice-main .container h2{
 font-size: 1.5rem;

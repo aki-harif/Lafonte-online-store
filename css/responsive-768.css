@@ -210,15 +210,11 @@
         width:  205px;
         height: 165px; 
     }
-    .advise-title h2 {
-        font-size: 2rem;
-       }
-       .advise-title p {
-    
-        padding: 1.1rem;
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
+    /* adver */
+    .adver-item .adver-title {
+        justify-content: end;
+        
+    } 
     .footer-nav h2 {
         padding-bottom: .5rem;
         letter-spacing: .2rem;
@@ -272,7 +268,7 @@
     display: flex;
     
     text-align: center;
-    align-items: flex-end;
+    align-items: center;
     
 }
 .advice-main .container h2{
@@ -286,6 +282,15 @@
         font-size: 1.2rem;
         margin-bottom: .7rem;
         line-height: 1.9rem;
+    }
+    .advise-title h2 {
+        font-size: 2rem;
+       }
+       .advise-title p {
+    
+        padding: 1.1rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
     .advice-main .container ul li{
         font-size: 1.2rem;

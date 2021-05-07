@@ -72,14 +72,21 @@
         height: 13.5rem;
 
     }
+    .sells .sell-head{
+        margin-bottom: 2rem;
+        font-size: 1.8rem;
+    }
     .sells-item img{
-        width:  170px;
-        height: 130px; 
+        width:  16.5rem;
+        height: auto; 
     }
     .sells-container {
-        width: 50%;
-        margin: auto;
-        box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+        width: 80%;
+    }
+     /* adver */
+     .adver-item .adver-title {
+        justify-content: end;
+        
     }
     .advise-title h2 {
         font-size: 1.5rem;
