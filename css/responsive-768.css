@@ -265,6 +265,16 @@
  }
 
 /* advice page */
+.advise-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    
+    text-align: center;
+    align-items: flex-end;
+    
+}
 .advice-main .container h2{
     font-size: 1.8rem;
     margin-bottom: .7rem;
