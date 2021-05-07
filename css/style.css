@@ -245,7 +245,7 @@ header .navigation {
 .login-card{
 position: absolute;
 width: 100%;
-height: 100%;
+height: auto;
 background: linear-gradient(160deg, rgb(43, 245, 150, .8), rgb(0, 0, 0, .8));
 border-radius: 1rem;
 
@@ -389,7 +389,7 @@ font-size: 2rem;
 .sign-up-card{
 position: absolute;
 width: 100%;
-height: 100%;
+height: auto;
 background: linear-gradient(160deg, rgb(43, 245, 150, .8), rgb(0, 0, 0, .8));
 border-radius: 1rem;
 }

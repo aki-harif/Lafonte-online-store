@@ -32,6 +32,14 @@
         width: 70%;
         height: 45%;
     }
+    .sign-up-card{
+        height: auto;
+        margin: 5rem auto; 
+    }
+    .login-card{
+        height: auto; 
+        margin: 5rem auto;       
+    }
     .close-card,
     .close-card-sign-up{
         font-size: 1.5rem; 
